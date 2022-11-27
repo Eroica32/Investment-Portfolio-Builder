@@ -1,14 +1,11 @@
 # Investment-Portfolio-Builder
 This is the final group project by Robin, Jessica, and Eric for the course CFM101 at the University of Waterloo
-
 This project aims to create the riskiest portfolio consisted of only US securities given a csv file with any stock tickers.
 
-In terms of coding concepts, this project incorporated:
-1. Functions
-2. Objected Oriented Programming
-4. Threading
-5. Usage of Python libraries (yfinance, Numpy, Pandas, etc.)
-6. input cleaning/filtering
+## Understand our repository:
+1. "Team_12_assignment.ipynb" is the python code implementing our portfolio strategy described below
+2. "Tickers_Example.csv" is the sample input of stock tickers
+3. "Stocks_Group_12.csv" is the sample output given "Ticker_Example.csv"
 
 ## The rules for the contest are as follows:
 Choose one of two goals: you can either target the riskiest portfolio or the safest.  There will be 2 prize winning championship teams, and 2 prize-winning runner-up teams.  For teams targeting the riskiest: We will take the value of the portfolio on December 02, 2022 and subtract the starting value of $500,000.  We will then take the absolute value of that result, “the ending value”.  The team with the highest ending value will win.  For teams targeting the safest: We will take the value of the portfolio on December 02, 2022 and subtract the starting value of $500,000, “the ending value”.   The team with ending value closest to zero will win.
@@ -32,3 +29,10 @@ Therefore, creating an uneven weighting of the first 3 stocks (25%, 25%, 12.5%) 
 Our portfolio uses standard deviation, rather than expected return, as the primary metric for compatibility with the goal of the portfolio. This is because the final value of the portfolio will be calculated from the final values of the stocks. A highly volatile stock may have limited average returns, because it has extremely positive and negative percentage returns over time. Given only the final value of the stock will be considered, so it is more important that the stock be highly volatile, and end on an extreme value on the final calculation date, than have high expected return.  
 
 The other 9 stocks were also chosen for their high correlation with the main stocks and given the smallest weighting possible. We did this to minimize diversification, and thus reduce the risk-reducing effects of holding multiple stocks. This met the assignment requirements, while preserving the risky nature of that one stock with the highest standard deviation. 
+
+## Programming concepts incorporated:
+1. Functions
+2. Objected Oriented Programming
+4. Threading
+5. Usage of Python libraries (yfinance, Numpy, Pandas, etc.)
+6. input cleaning/filtering
