@@ -3,6 +3,13 @@ This is the final group project by Robin, Jessica, and Eric for the course CFM10
 
 This project aims to create the riskiest portfolio consisted of only US securities given a csv file with any stock tickers.
 
+In terms of coding concepts, this project incorporated:
+1. Functions
+2. Objected Oriented Programming
+4. Threading
+5. Usage of Python libraries (yfinance, Numpy, Pandas, etc.)
+6. input cleaning/filtering
+
 ## The rules for the contest are as follows:
 Choose one of two goals: you can either target the riskiest portfolio or the safest.  There will be 2 prize winning championship teams, and 2 prize-winning runner-up teams.  For teams targeting the riskiest: We will take the value of the portfolio on December 02, 2022 and subtract the starting value of $500,000.  We will then take the absolute value of that result, “the ending value”.  The team with the highest ending value will win.  For teams targeting the safest: We will take the value of the portfolio on December 02, 2022 and subtract the starting value of $500,000, “the ending value”.   The team with ending value closest to zero will win.
 1. Dynamically create a portfolio, where you will not know which stocks you are choosing from beforehand 
