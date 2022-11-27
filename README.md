@@ -1,5 +1,5 @@
 # Investment-Portfolio-Builder
-This is the final project group project by Robin, Jessica, and Eric for the course CFM101 at the University of Waterloo
+This is the final group project by Robin, Jessica, and Eric for the course CFM101 at the University of Waterloo
 
 This project aims to create the riskiest portfolio consisted of only US securities given a csv file with any stock tickers.
 
