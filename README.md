@@ -36,3 +36,6 @@ The other 9 stocks were also chosen for their high correlation with the main sto
 4. Threading
 5. Usage of Python libraries (yfinance, Numpy, Pandas, etc.)
 6. input cleaning/filtering
+
+## Possible next steps:
+1. Utilize more computational power and select 10 portfolios based on top 10 of the most risky (high std) stocks instead of just one. And compare the overall standard deviation of the resulting portfolios to find the highest one. 
