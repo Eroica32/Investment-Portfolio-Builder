@@ -39,7 +39,7 @@ The other 9 stocks were also chosen for their high correlation with the main sto
 
 ## Project Feedback
 1. Grade received: __93%__ (NICE) 
-2. Portfolio return at the end of the competition week: __4.45%__ 
+2. Portfolio return at the end of the competition week: __+4.45%__ 
 3. Original code did not consider duplicate tickers in input csv file (fixed)
 4. Original code did not adhere to rule completely by filtering out everything except for US Stocks (fixed)
 
