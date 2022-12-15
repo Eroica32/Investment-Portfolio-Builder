@@ -37,5 +37,12 @@ The other 9 stocks were also chosen for their high correlation with the main sto
 5. Usage of Python libraries (yfinance, Numpy, Pandas, etc.)
 6. input cleaning/filtering
 
+## Project Feedback
+1. Grade received: __93%__ (NICE) 
+2. Portfolio return at the end of the competition week: __4.45%__ 
+3. Original code did not consider duplicate tickers in input csv file (fixed)
+4. Original code did not adhere to rule completely by filtering out everything except for US Stocks (fixed)
+
+
 ## Possible next steps:
 1. Utilize more computational power and select 10 portfolios based on top 10 of the most risky (high std) stocks instead of just one. And compare the overall standard deviation of the resulting portfolios to find the highest one. 
